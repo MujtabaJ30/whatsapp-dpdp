@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WhatsApp Privacy Prototype</title>
+    <meta
+      name="description"
+      content="Clickable WhatsApp DPDP consent prototype for the Vedantu PM assignment."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="workspace">
+      <header class="workspace-bar">
+        <div class="workspace-pill">
+          <span class="workspace-dot"></span>
+          <span>WhatsApp DPDP prototype</span>
+        </div>
+        <button class="workspace-button" type="button" data-action="restart">
+          Restart
+        </button>
+      </header>
+
+      <section class="stage" aria-label="Mobile prototype">
+        <div class="phone-frame">
+          <div class="phone-hardware">
+            <div class="status-bar" aria-hidden="true">
+              <span id="status-time">9:41</span>
+              <div class="status-icons">
+                <span class="signal"></span>
+                <span class="wifi"></span>
+                <span class="battery">
+                  <span class="battery-fill"></span>
+                </span>
+              </div>
+            </div>
+
+            <div class="app-shell">
+              <div id="screen-root" class="screen-root" aria-live="polite"></div>
+              <div id="sheet-root" class="sheet-root"></div>
+              <div id="toast-root" class="toast-root"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <p class="workspace-note">
+        Mobile prototype for the Vedantu PM assignment.
+      </p>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
