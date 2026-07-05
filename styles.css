@@ -146,7 +146,7 @@ button {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(36, 44, 38, 0.72);
   font-size: 0.88rem;
   font-weight: 600;
 }
@@ -264,7 +264,7 @@ button {
 }
 
 .topbar {
-  padding: 14px 18px 14px;
+  padding: 28px 18px 14px;
   display: flex;
   align-items: center;
   justify-content: space-between;
