@@ -58,7 +58,7 @@ It immediately shows:
 
 - you are thinking in product terms
 - you understand the company context
-- you are not treating the assignment like a legal summary
+- you are not treating the case study like a legal summary
 
 ### Suggested Layout
 
@@ -366,7 +366,7 @@ It resolves the story and shows you can own the trade-offs.
 - risks/trade-offs on the right
 - strong closing sentence at the bottom
 
-## What Not To Add Just Because The Assignment Mentions It
+## What Not To Add Just Because The Brief Mentions It
 
 Avoid creating separate filler slides for:
 
@@ -382,7 +382,7 @@ Instead:
 
 ## Dashboard Requirement
 
-The assignment asks for a dashboard. It should be included, but not as a visual gimmick.
+The brief asks for a dashboard. It should be included, but not as a visual gimmick.
 
 Best approach:
 

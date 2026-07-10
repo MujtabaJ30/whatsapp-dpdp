@@ -2,7 +2,7 @@
 
 ## Communication Job
 
-By the end of the deck, the Vedantu panel should believe:
+By the end of the deck, the audience should believe:
 
 - this candidate can turn a legal/privacy requirement into a product system
 - the thinking is grounded in user behavior, business reality, and friction

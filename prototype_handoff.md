@@ -2,7 +2,7 @@
 
 ## What This Is
 
-This repository contains the clickable prototype for the Vedantu PM assignment on WhatsApp and DPDP/privacy consent.
+This repository contains the clickable prototype for the WhatsApp DPDP consent architecture case study.
 
 The prototype is intentionally:
 
@@ -26,7 +26,7 @@ The prototype is built around these PM decisions:
 - `index.html`: phone shell and main app mount
 - `styles.css`: layout, mobile frame, components, screen styling
 - `app.js`: screen rendering, state, interactions, URL state
-- `assignment.md`: original assignment brief
+- `assignment.md`: case study brief
 - `whatsapp_dpdp_strategy.md`: strategy and PM thesis
 - `deck_architecture.md`: suggested deck structure
 - `presentation_brief.md`: tone and visual guidance for the deck

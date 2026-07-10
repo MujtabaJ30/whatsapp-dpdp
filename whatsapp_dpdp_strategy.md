@@ -1,10 +1,10 @@
 # WhatsApp x DPDP Strategy Notes
 
-## What This Assignment Is Actually Testing
+## What This Case Study Is Actually Testing
 
 This is not really a privacy-policy exercise. It is a product judgment exercise.
 
-Vedantu is likely testing whether we can:
+The case study is likely testing whether we can:
 
 - identify the real product problem inside a broad legal prompt
 - separate user value from compliance theater
