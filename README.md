@@ -2,10 +2,7 @@
 
 A product case study on redesigning WhatsApp's data consent and privacy architecture to comply with India's **Digital Personal Data Protection (DPDP) Act, 2023** — while preserving the core messaging experience.
 
-<p>
-  <a href="https://docs.google.com/presentation/d/1CPIi0uNnTII0yYop3AJ28W6HxaDYKvONWhcoswp4dkQ/edit?usp=sharing"><img src="https://img.shields.io/badge/Product%20Deck-Google%20Slides-4285F4?style=for-the-badge&logo=google-slides&logoColor=white" alt="Product Deck"></a>&nbsp;&nbsp;
-  <a href="https://whatsapp-dpdp.vercel.app/"><img src="https://img.shields.io/badge/Live%20Prototype-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Prototype"></a>
-</p>
+**[Product Deck](https://docs.google.com/presentation/d/1CPIi0uNnTII0yYop3AJ28W6HxaDYKvONWhcoswp4dkQ/edit?usp=sharing) &nbsp;|&nbsp; [Live Prototype](https://whatsapp-dpdp.vercel.app/)**
 
 ---
 
@@ -69,7 +66,7 @@ Built as a mobile-first, dependency-free web app with 7 screens showing the full
 
 <table>
   <tr>
-    <td width="33%"><img src="assets/First%20page%20needed%20permissions%20consent.png" alt="Essential service notice"></td>
+    <td width="33%"><img src="assets/first-page-needed-permissions-consent.png" alt="Essential service notice"></td>
     <td width="33%"><img src="assets/contacts%20permission%20consent.png" alt="Contact sync consent"></td>
     <td width="33%"><img src="assets/Location%20permission%20consent.png" alt="Location permission"></td>
   </tr>
@@ -146,7 +143,7 @@ Expand by use case → Expand by platform → Full rollout
 ├── styles.css                   # All styling
 ├── app.js                       # Screen rendering, state management
 ├── assets/                      # Screenshots
-│   ├── First page needed permissions consent.png
+│   ├── first-page-needed-permissions-consent.png
 │   ├── contacts permission consent.png
 │   ├── Location permission consent.png
 │   ├── chat backup consent.png
