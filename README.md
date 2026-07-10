@@ -2,7 +2,10 @@
 
 A product case study on redesigning WhatsApp's data consent and privacy architecture to comply with India's **Digital Personal Data Protection (DPDP) Act, 2023** — while preserving the core messaging experience.
 
-[Product Deck](https://docs.google.com/presentation/d/1CPIi0uNnTII0yYop3AJ28W6HxaDYKvONWhcoswp4dkQ/edit?usp=sharing) · [Live Prototype](https://whatsapp-dpdp.vercel.app/) · [Brief](./assignment.md)
+<p>
+  <a href="https://docs.google.com/presentation/d/1CPIi0uNnTII0yYop3AJ28W6HxaDYKvONWhcoswp4dkQ/edit?usp=sharing"><img src="https://img.shields.io/badge/Product%20Deck-Google%20Slides-4285F4?style=for-the-badge&logo=google-slides&logoColor=white" alt="Product Deck"></a>&nbsp;&nbsp;
+  <a href="https://whatsapp-dpdp.vercel.app/"><img src="https://img.shields.io/badge/Live%20Prototype-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Prototype"></a>
+</p>
 
 ---
 

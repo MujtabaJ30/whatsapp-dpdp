@@ -1,0 +1,193 @@
+%----------------------------------------------------------------------------------------
+%   DOCUMENT DEFINITION
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+%----------------------------------------------------------------------------------------
+%   PACKAGES
+%----------------------------------------------------------------------------------------
+
+\usepackage[T1]{fontenc}
+\usepackage{parskip}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[top=0.6cm, bottom=1.5cm, left=1cm, right=1cm]{geometry}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{titlesec}
+
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    breaklinks=true,
+    urlcolor=black,
+    linkcolor=black
+}
+
+\titleformat{\section}
+{\large\bfseries\raggedright}
+{}{0em}{}[\titlerule]
+
+\titlespacing{\section}{0pt}{6pt}{6pt}
+
+%----------------------------------------------------------------------------------------
+%   BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\pagestyle{empty}
+
+%----------------------------------------------------------------------------------------
+%   TITLE
+%----------------------------------------------------------------------------------------
+
+\begin{center}
+
+{\LARGE\bfseries Mujtaba Jafri} \\[8pt]
+
+\href{https://www.linkedin.com/in/mujtaba30/}{LinkedIn}
+ $|$
+\href{mailto:jafri.h@ahduni.edu.in}{jafri.h@ahduni.edu.in}
+ $|$
++91-9665857777
+ $|$
+\href{https://github.com/MujtabaJ30}{GitHub}
+ $|$
+\href{https://portfolio-mujtabaj30.vercel.app/}{Portfolio}
+
+\end{center}
+
+
+%----------------------------------------------------------------------------------------
+%   EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+
+2021 -- 2025 &
+\textbf{Ahmedabad University} \\
+&
+B.S. (Hons.) Computer Science (4 yrs) \\
+
+&
+Relevant Coursework:
+\textbf{Statistics},
+\textbf{Machine Learning},
+\textbf{Human Computer Interaction} \\
+
+\end{tabularx}
+
+
+%----------------------------------------------------------------------------------------
+%   PROJECTS
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+
+%----------------------------------------------------------------------------------------
+%   PROJECT 3
+%----------------------------------------------------------------------------------------
+\textbf{Automated Invoice Exception Handling Time for Accounts Payable teams}
+\hfill
+\href{https://github.com/MujtabaJ30/Invoice-exception-handler}{Live Demo}
+
+\begin{itemize}[nosep,leftmargin=1em,itemsep=7pt]
+
+\item Scoped the problem to \textbf{7 invoice exception types} (amount mismatch, missing PO, duplicate, etc.) and used deterministic detection since finance teams need audit trails, not probabilistic guesses.
+
+\item Designed a \textbf{human-in-the-loop} flow where the LLM drafts fix proposals with confidence scores but a person always approves; quality gates catch bad proposals before they reach the reviewer.
+
+\item Built a learning loop where approved fixes become rules and \textbf{auto-resolve} identical exceptions, removing human review on repeat cases.
+
+\item Shipped end-to-end MVP (detection to resolution in \textbf{3 clicks}) with a live \textbf{ROI dashboard} tracking cost-per-invoice, labor hours saved, and touchless rate.
+
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%   PROJECT 1
+%----------------------------------------------------------------------------------------
+
+\textbf{Unblocked Signup Drop-off and UX Friction points for Ownly food delivery app}
+\hfill
+\href{https://drive.google.com/drive/folders/1f7JIWPRwlcHTbto9-NhSCaKxKleOFj6i}{Project Link}
+
+\begin{itemize}[nosep,leftmargin=1em,itemsep=7pt]
+
+\item Mapped the full user journey across 7 touchpoints, found \textbf{6 conversion friction points}, and used ICE scoring to rank them. SSO onboarding came out on top at 8.0/10.
+
+\item Wrote a \textbf{full PRD} for the SSO fix with user stories, acceptance criteria, and success metrics tied to registration completion rate.
+
+\item Sketched wireframes for an ``Explore First, Geofence Later'' flow that lets users browse without GPS permissions, solving the dead-end that blocks new signups.
+
+\item Put together an \textbf{A/B test plan} with hypothesis, control/treatment split, and sample size to validate the fix before rolling it out.
+
+\end{itemize}
+
+\vspace{5pt}
+
+%----------------------------------------------------------------------------------------
+%   PROJECT 2
+%----------------------------------------------------------------------------------------
+
+\textbf{Identified \$1.5M at Risk Revenue Using RFM Analysis for Olist Ecommerce website}
+\hfill
+\href{https://github.com/MujtabaJ30/SQL-Product-Analytics}{GitHub}
+
+\begin{itemize}[nosep,leftmargin=1em,itemsep=7pt]
+
+\item Analyzed 100K orders across 9 tables to segment customers and map revenue concentration. Found 25\% of customers drive 48\% of revenue, recommended a targeted reactivation campaign to recover \textbf{\$1.5M} in at-risk customer value.
+
+\item Discovered late deliveries penalize review scores by \textbf{1.72 points} (4.29 to 2.57), with furniture categories at 13--17\% late rate. Recommended adjusting delivery estimates by category — projected 0.3--0.5 avg review score improvement.
+
+\item Identified that 74\% of payments are credit card (25\%+ use 4+ installments) but checkout treats all methods equally. Recommended prioritizing credit card + installment UX to streamline the path used by \textbf{3 in 4 customers}.
+
+\end{itemize}
+
+\vspace{5pt}
+
+%----------------------------------------------------------------------------------------
+%   EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\textbf{Machine Learning Assistant} \textemdash\ \textit{National Institute of Electronics and Information technology}
+\hfill May -- Jul 2025
+\begin{itemize}[nosep,leftmargin=1em,itemsep=7pt]
+
+\item Designed and delivered a 12-week ML curriculum for 40 students; iterated on content weekly based on student feedback and project completion data, all \textbf{40} made a working project.
+
+\end{itemize}
+
+\vspace{5pt}
+
+
+%----------------------------------------------------------------------------------------
+%   SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+
+\textbf{Product:} &
+User Research, PRD, User Stories, Wireframing, Prioritization, A/B Testing \\[3pt]
+
+\textbf{Technical:} &
+SQL, Python\\[3pt]
+
+\textbf{AI \& ML:} &
+LLM Integration, AI Evaluation Metrics, RAG \\[3pt]
+
+\textbf{Tools:} &
+Figma, Excel, Mixpanel \\
+
+\end{tabularx}
+
+
+\end{document}
